@@ -1,0 +1,103 @@
+.grid-speaker.custom-grid {
+    grid-template-columns: 1fr 1fr;
+}
+.main.overflow-hidden.bg-dark-grey {
+    background-color: #000 !important;
+}
+.program-listing  .display-3 {
+    font-size: 1rem;
+}
+.nav-menu.w-nav-menu {
+    display: none !important;
+}
+#email-type-field {
+    display: none;
+}
+.bg-image.programme_2 {
+    background-image: url( '../images/thumb_prv.jpg' );
+}
+.cust-gallery {
+    width: 100%;
+    display: block;
+}
+.cust-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.cust-row img {
+    width: 100%;
+    height: auto;
+}
+.row-2.cust-row {
+    grid-template-columns: 1fr 1fr;
+}
+.partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.partners-grid.just-one {
+    grid-template-columns: 1fr;
+}
+.partner-wrapper {
+    padding: 10px 15px;
+    text-align: center;
+}
+.partners-grid.just-one  img {
+    max-width: 250px;
+}
+#w-node-_89284445-b0d9-9123-3b6a-921e18532aae-89ad89841S,
+#w-node-_40a07bba-7c84-960c-7e4d-f3ffb25e61d9-89ad89842I {
+
+}
+#w-node-_89284445-b0d9-9123-3b6a-921e18532aae-89ad89841S {
+
+}
+#w-node-_40a07bba-7c84-960c-7e4d-f3ffb25e61d9-89ad89842I {
+    
+}
+.custom-btn-trans{
+    width: auto;
+    font-size: 20px;
+    line-height: 14px;
+    top: 80px;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+}
+@media screen and (max-width: 640px) {
+    .grid-speaker.custom-grid {
+        grid-template-columns: 1fr;
+    }
+    .grid-speaker.custom-grid img {
+        width: 100%;
+    }
+    .custom-mobile-heading.display-0.margin-paragraph_4x {
+        font-size: 45px;
+    }
+    .absolute-hero.fixed.first-hero {
+        background-position: 23%;
+    }
+    .brand, .brand.white.absolute {
+        left: 50% !important;
+        right: unset !important;
+        -ms-transform: translate(-50%, 0) !important;
+        transform: translate(-50%, 0) !important;
+        margin-left: 0 !important;
+    }
+    .row-3.cust-row,
+    .row-2.cust-row {
+        grid-template-columns: 1fr;
+    }
+    .partners-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .custom-btn-trans{
+        top: 30px;
+        height: auto;
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
